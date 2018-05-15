@@ -1,7 +1,7 @@
 def my_each(proc = nil)
 
   index = 0
-  while index < length
+  while index < self.size
     if proc == nil
       yield(self[index])
     else
